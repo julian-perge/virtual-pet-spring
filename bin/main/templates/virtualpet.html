@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title th:text="${virtualpet.name}">VirtualPet title</title>
+	<link rel="stylesheet" type="text/css" media="all" href="/css/normalize.css" th:href="@{/css/normalize.css}" />
+</head>
+
+<body>
+	<section class="pet-name">
+		<h1 th:text="${virtualpet.name}">Pet Name</h1>
+	</section>
+
+	<section class="nav">
+
+	</section>
+
+	<section class="pet-status">
+
+		<section class="image-of-pet">
+
+		</section>
+
+		<section class="pet-stats">
+			<p th:text="${virtualpet.name}"></p>
+			<p th:text="${virtualpet.description}"></p>
+			<p th:text="${virtualpet.health}"></p>
+		</section>
+
+	</section>
+</body>
+
+</html>
